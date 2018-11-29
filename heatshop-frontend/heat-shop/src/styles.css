@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Ranga';
+  src: url('./assets/fonts/Ranga/Ranga-Bold.ttf'); /* For IE */
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('./assets/fonts/Lora/Lora-Regular.ttf'); /* For IE */
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Lora";
+  color: white;
+}
+
+body {
+  background-color: #88BDBC;
+}
